@@ -5,6 +5,9 @@ body{
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    width:1200px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 header{
@@ -36,17 +39,49 @@ a{
     width:1200px;
 }
 
-.text{
-    width:1000px;
-    text-align: center;
-}
-
 .featured-tea{
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
 }
+.pic1, .pic2, .pic3, .pic4, .pic5{
+    margin:50px;
+}
 
+.pic4{
+    padding-left: 220px;
+}
 .pic{
     width: 300px;
     height: 200px;
+    margin-bottom: 10px;
+}
+
+.local{
+    background-image: url("./images/img-locations-background.jpeg");
+    height:500px;
+}
+
+.h2-locations{
+    padding: 15px;
+}
+.locations{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:40px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.local1, .local2, .local3{
+    background-color: black;
+    width:300px;
+    margin-left: 40px;
+}
+
+.contact{
+    height:200px;
+}
+
+footer{
+    text-align: left;
+    margin-left: 20px;
 }
